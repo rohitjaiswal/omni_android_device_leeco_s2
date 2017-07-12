@@ -19,6 +19,9 @@ LOCAL_PATH := device/leeco/s2
 # Headers
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+# Use CLANG
+USE_CLANG_PLATFORM_BUILD := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8952
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno510
