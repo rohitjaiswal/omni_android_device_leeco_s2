@@ -19,6 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product-if-exists, vendor/leeco/s2/s2-vendor.mk)
 
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

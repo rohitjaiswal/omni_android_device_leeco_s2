@@ -127,6 +127,7 @@ BOARD_GLOBAL_CFLAGS += -DDECAY_TIME_DEFAULT=0
 WITH_CM_CHARGER := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BLINK_PATH := "/sys/class/leds/red/blink"
 
