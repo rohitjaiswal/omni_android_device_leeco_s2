@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# Messaging
+PRODUCT_PACKAGES += \
+    messaging
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
