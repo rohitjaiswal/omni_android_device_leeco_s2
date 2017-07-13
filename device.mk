@@ -152,10 +152,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions
-
 # Display
 PRODUCT_PACKAGES += \
     gralloc.msm8952 \
