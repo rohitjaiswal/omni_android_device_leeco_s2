@@ -146,7 +146,7 @@ TARGET_LDPRELOAD := libNimsWrap.so
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
-
+TARGET_CRYPTFS_HW_PATH := device/leeco/s2/cryptfs_hw
 
 # CSVT
 TARGET_USES_CSVT := true
