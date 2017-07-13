@@ -23,6 +23,10 @@ $(call inherit-product-if-exists, vendor/leeco/s2/s2-vendor.mk)
 PRODUCT_PACKAGES += \
     omni_charger_res_images
 
+# DeviceParts
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
