@@ -1,3 +1,6 @@
+# Google Assistant
+ro.opa.eligible_device=true
+
 #
 # system.prop for msm8952
 #
