@@ -22,6 +22,9 @@ TARGET_QCOM_MEDIA_VARIANT := caf-msm8952
 TARGET_QCOM_AUDIO_VARIANT := caf-msm8952
 TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8952
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Headers
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
