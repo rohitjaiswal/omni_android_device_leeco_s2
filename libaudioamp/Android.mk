@@ -17,6 +17,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES += \
+    $(TOP)/hardware/qcom/audio/hal/ \
     $(call project-path-for,qcom-audio)/hal/ \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
     external/tinyalsa/include \
